@@ -1,4 +1,4 @@
-# hubot-lmgtfy
+# hubot-lmddgtfy
 
 A hubot script that replies with a link to [lmddgtfy](http://lmddgtfy.net/) (let me duckduckgo that for you)  
 
@@ -21,7 +21,7 @@ Then add **hubot-lmddgtfy** to your `external-scripts.json`:
 ## Sample Interaction
 
 ```
-user1>> hubot lmgtfy what is 2+2?
+user1>> hubot lmddgtfy what is 2+2?
 hubot>> http://lmddgtfy.net/?q=what%20is%202%2B2%3F
 ```
 
