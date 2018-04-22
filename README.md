@@ -1,22 +1,20 @@
 # hubot-lmgtfy
 
-[![Build Status](https://travis-ci.org/MonicaG/hubot-lmgtfy.svg?branch=master)](https://travis-ci.org/MonicaG/hubot-lmgtfy)
+A hubot script that replies with a link to [lmddgtfy](http://lmddgtfy.net/) (let me duckduckgo that for you)  
 
-A hubot script that replies with a link to [lmgtfy](http://lmgtfy.com/) (let me google that for you)  
-
-See [`src/lmgtfy.coffee`](src/lmgtfy.coffee) for full documentation.
+See [`src/lmddgtfy.coffee`](src/lmgtfy.coffee) for full documentation.
 
 ## Installation
 
 In hubot project repo, run:
 
-`npm install hubot-lmgtfy --save`
+`npm install hubot-lmddgtfy --save`
 
-Then add **hubot-lmgtfy** to your `external-scripts.json`:
+Then add **hubot-lmddgtfy** to your `external-scripts.json`:
 
 ```json
 [
-  "hubot-lmgtfy"
+  "hubot-lmddgtfy"
 ]
 ```
 
@@ -24,7 +22,7 @@ Then add **hubot-lmgtfy** to your `external-scripts.json`:
 
 ```
 user1>> hubot lmgtfy what is 2+2?
-hubot>> http://lmgtfy.com/?q=what%20is%202%2B2%3F
+hubot>> http://lmddgtfy.net/?q=what%20is%202%2B2%3F
 ```
 
 ## Contributing

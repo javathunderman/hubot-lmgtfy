@@ -1,18 +1,20 @@
 {
-  "name": "hubot-lmgtfy",
+  "name": "hubot-lmddgtfy",
   "description": "A hubot script that replies with a link to lmgtfy (let me google that for you)",
   "version": "1.0.1",
-  "author": "Monica Granbois <mgranbois@outlook.com>",
+  "author": "javathunderman <javathunderman@nomik.xyz>",
   "license": "MIT",
   "keywords": "hubot, hubot-scripts",
   "repository": {
     "type": "git",
-    "url": "git://github.com/MonicaG/hubot-lmgtfy.git"
+    "url": "git://github.com/javathunderman/hubot-lmddgtfy.git"
   },
   "bugs": {
-    "url": "https://github.com/MonicaG/hubot-lmgtfy/issues"
+    "url": "https://github.com/javathunderman/hubot-lmddgtfy/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "findup-sync": "^2.0.0"
+  },
   "peerDependencies": {
     "hubot": "3.x"
   },
