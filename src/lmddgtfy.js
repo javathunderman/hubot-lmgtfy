@@ -15,8 +15,8 @@
 //   Monica Granbois <mgranbois@outlook.com>
 
 module.exports = robot =>
-  robot.respond(/lmgtfy (.*)/i, function(res) {
+  robot.respond(/lmddgtfy (.*)/i, function(res) {
     const topic = encodeURIComponent(res.match[1]).replace(/[!'()*]/g, escape);
-    return res.send(`http://lmgddgtfy.net/?q=${topic}`);
+    return res.send(`http://lmddgtfy.net/?q=${topic}`);
   })
 ;
